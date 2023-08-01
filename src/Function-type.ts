@@ -1,4 +1,4 @@
-function add(n1:number, n2:number){
+function added(n1:number, n2:number){
     return n1 + n2;
 }
 
@@ -8,7 +8,7 @@ function printNumber(n:number){
 
 let addFunction :(a:number, b:number)=>number;
 
-addFunction = add;
+addFunction = added;
 
 //addFunction = printNumber; // it will give error because the types of addFunction taking two parameters and returning a number; but in case of printNumber it's taking only one parameter and returning nothing.
 

@@ -8,4 +8,6 @@ if(typeof userInput=="string"){
     userName = userInput
 }
 
+console.log("hello world")
+
 // here we have explicitly check what type of value userInput contains only then we can assign the value;

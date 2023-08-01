@@ -1,4 +1,4 @@
-function add(input1: number | string, input2: number | string, resultConversion: "as-text" | "as-number") {
+function newAdd(input1: number | string, input2: number | string, resultConversion: "as-text" | "as-number") {
     let result;
   
     if (typeof input1 === "number" && typeof input2 === "number" || resultConversion === "as-number") {
@@ -14,14 +14,14 @@ function add(input1: number | string, input2: number | string, resultConversion:
     return result;
   }
   
-  const combinedNumber = add(5, 6, "as-number");
-  console.log(combinedNumber);
+  const CombinedNumber = newAdd(5, 6, "as-number");
+  console.log(CombinedNumber);
 
-  const combinedNamesNumber = add("5", "6", "as-number");
+  const combinedNamesNumber = newAdd("5", "6", "as-number");
   console.log(combinedNamesNumber);
 
-  const combinedNames = add("sumit", "saurabh", "as-text");
-  console.log(combinedNames);
+  const CombinedNames = newAdd("sumit", "saurabh", "as-text");
+  console.log(CombinedNames);
   
   /*
   literal types allow developers to get their specific result conversions

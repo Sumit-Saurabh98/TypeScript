@@ -1,7 +1,7 @@
 type combined = number | string;
 type descriptorConvertor = "as-text" | "as-number";
 
-function add(
+function addition(
   input1: combined,
   input2: combined,
   resultConversion: descriptorConvertor
@@ -24,14 +24,14 @@ function add(
   return result;
 }
 
-const combinedNumber = add(5, 6, "as-number");
-console.log(combinedNumber);
+const combinedNewNumber = addition(5, 6, "as-number");
+console.log(combinedNewNumber);
 
-const combinedNamesNumber = add("5", "6", "as-number");
-console.log(combinedNamesNumber);
+const combinedNewNamesNumber = addition("5", "6", "as-number");
+console.log(combinedNewNamesNumber);
 
-const combinedNames = add("sumit", "saurabh", "as-text");
-console.log(combinedNames);
+const combinedNewNames = addition("sumit", "saurabh", "as-text");
+console.log(combinedNewNames);
 
 //   Type Aliases & Object Types
 
