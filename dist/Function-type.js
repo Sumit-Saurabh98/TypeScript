@@ -16,12 +16,12 @@ function findResult(n1, n2, cb) {
 findResult(6, 6, (a) => {
     console.log(a);
 });
-function sendRequest(data, cb) {
-    // ... sending a request with "data"
-    return cb({ data: 'Hi there!' });
-}
-sendRequest('Send this!', (response) => {
-    console.log(response);
-    return true;
-});
+// function sendRequest(data: string, cb: (response: any) => void) {
+//     // ... sending a request with "data"
+//     return cb({data: 'Hi there!'});
+//   }
+//   sendRequest('Send this!', (response) => { 
+//     console.log(response);
+//     return true;
+//    });
 //   callback functions can return something, even if the argument on which they're passed does NOT expect a returned value.

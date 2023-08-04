@@ -7,8 +7,8 @@ const printResult = (num:number):void => {
     console.log("Result: " + num); // if we not write return statement then the return type is void 
 }
 
-function ConsoleResult(num:number):undefined{ 
-    return; // if we just return nothing then the return type is undefined
-}
+// function ConsoleResult(num:number):undefined{ 
+//     return; // if we just return nothing then the return type is undefined
+// }
 
 printResult(additionTwoNumber(5, 6));

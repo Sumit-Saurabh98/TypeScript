@@ -24,15 +24,15 @@ findResult(6, 6, (a)=>{ // no need to specify here the types of a because we hav
 })
 
 
-function sendRequest(data: string, cb: (response: any) => void) {
-    // ... sending a request with "data"
-    return cb({data: 'Hi there!'});
-  }
+// function sendRequest(data: string, cb: (response: any) => void) {
+//     // ... sending a request with "data"
+//     return cb({data: 'Hi there!'});
+//   }
 
 
-  sendRequest('Send this!', (response) => { 
-    console.log(response);
-    return true;
-   });
+//   sendRequest('Send this!', (response) => { 
+//     console.log(response);
+//     return true;
+//    });
 
 //   callback functions can return something, even if the argument on which they're passed does NOT expect a returned value.

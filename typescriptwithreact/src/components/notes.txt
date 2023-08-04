@@ -1,0 +1,5 @@
+some package not support typescript but you can use by writing the command 
+
+react-router-dom doesn't support typescript but you can use by writing the command
+
+npm install --save-dev @types/react-router-dom
